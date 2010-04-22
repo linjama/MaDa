@@ -1,0 +1,43 @@
+<div class="contact_form">
+
+<% tmp_col_size = 52 -%>
+
+<% form_for(@customer) do |f| %>
+  <%= f.error_messages %>
+  <fieldset>
+  <h1>
+  Yhteydenottopyynt&#246;
+  </h1>
+  <div>
+    <%= f.label :name, "Nimi:" %><br />
+    <%= f.text_field :name, :size => tmp_col_size%>
+  </div>
+  <div>
+    <%= f.label :address, "Osoite:" %><br />
+    <%= f.text_area :address, :rows => 3, :size => tmp_col_size %>
+  </div>
+  <div>
+    <%= f.label :email, "S&#228;hk&#246;posti:" %><br />
+    <%= f.text_field :email, :size => tmp_col_size %>
+  </div>
+  <div>
+    <%= f.label :title, "Viestin otsikko:" %><br />
+    <%= f.text_field :title, :size => tmp_col_size %>
+  </div>
+  <div>
+    <%= f.label :message, "Viestisi:" %><br />
+    <%= f.text_area :message %>
+  </div>
+  <div>
+    <%= f.label :contact_type, "Yhteydenottotapa:" %><br />
+    <%= f.select :contact_type, Customer::CONTACT_TYPES, :prompt => "Valitse yhteydenottotapa"%>
+  </div>
+  <div>
+    <%= f.submit 'Create' %>
+  </div>
+  </fieldset>
+<% end %>
+
+<%= link_to 'Back', customers_path %>
+
+</div>

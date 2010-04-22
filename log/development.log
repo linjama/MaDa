@@ -1,0 +1,180 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (94.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCustomers (20100422173735)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" text, "email" varchar(255), "title" varchar(255), "message" text, "contact_type" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100422173735')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("customers")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-22 20:39:41) [GET]
+
+ActionController::RoutingError (No route matches "/customer" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing CustomersController#index (for 127.0.0.1 at 2010-04-22 20:41:22) [GET]
+  [4;36;1mCustomer Load (0.0ms)[0m   [0;1mSELECT * FROM "customers" [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Completed in 2500ms (View: 2469, DB: 0) | 200 OK [http://localhost/customers]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 20:41:49) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCustomers (20100422173735)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("customers")[0m
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:03:33) [GET]
+
+SyntaxError (C:/RYWeb/kaunisveranta/app/models/customer.rb:4: syntax error, unexpected tLBRACK, expecting ']'
+	["Puhelimitse","phone"]
+	 ^
+C:/RYWeb/kaunisveranta/app/models/customer.rb:5: syntax error, unexpected ']', expecting kEND):
+  app/controllers/customers_controller.rb:27:in `new'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:04:09) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 93ms (View: 62, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:10:54) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 235ms (View: 204, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:11:59) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 157ms (View: 63, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:12:29) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:15:05) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:15:34) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 125ms (View: 94, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:16:33) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+
+ActionView::TemplateError (undefined local variable or method `size' for #<ActionView::Base:0x474e650>) on line #13 of app/views/customers/new.html.erb:
+10:   </h1>
+11:   <div>
+12:     <%= f.label :name, "Nimi:" %><br />
+13:     <%= f.text_field :name, size => tmp_col_size%>
+14:   </div>
+15:   <div>
+16:     <%= f.label :address, "Osoite:" %><br />
+
+    app/views/customers/new.html.erb:13
+    app/views/customers/new.html.erb:5
+    app/controllers/customers_controller.rb:29:in `new'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:16:57) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+
+ActionView::TemplateError (undefined local variable or method `size' for #<ActionView::Base:0x47b1124>) on line #11 of app/views/customers/new.html.erb:
+8:   </h1>
+9:   <div>
+10:     <%= f.label :name, "Nimi:" %><br />
+11:     <%= f.text_field :name, size => 50%>
+12:   </div>
+13:   <div>
+14:     <%= f.label :address, "Osoite:" %><br />
+
+    app/views/customers/new.html.erb:11
+    app/views/customers/new.html.erb:3
+    app/controllers/customers_controller.rb:29:in `new'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:17:45) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:18:03) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:18:30) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-22 21:19:08) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/customers/new]
