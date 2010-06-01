@@ -1,0 +1,14 @@
+body {}
+
+/* VÄRIT                                                  */
+/* Bannerin vaalean ruskea = rgb(254,236,188)             */
+/* Kaunis Veranta Logon sininen on noin rgb(121,113,211)  */
+/* Kukkien liila on noin rgb(148,137,291)                 */
+/* Vaaleampi pohja = rgb(253,251,242)                     */
+
+/* LEVEYS 848px */
+
+.sisalto {
+  background-color: rgb(253,251,242);
+  width: 848px;
+}
