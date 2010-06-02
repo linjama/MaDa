@@ -5,7 +5,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title><%= @page_title %></title>
-  <%= stylesheet_link_tag 'scaffold', 'kaunis_veranta' %>
+  <%= stylesheet_link_tag 'kaunis_veranta' %>
 </head>
 <body>
 
@@ -13,9 +13,9 @@
 
 <p style="color: green"><%= flash[:notice] %></p>
 
-<div class="sisalto">
-  <%= yield %>
-</div>
+<table width="100%"><tr><td></td><td class="sisalto">
+
+<%= yield %>
 
 <hr>
 
@@ -24,5 +24,6 @@
   <%= link_to_unless_current("Puutarhasuunnittelu",{:action => "puutarha", :class => "linkki"}) %>
 </div>
 
+</td><td></td></tr></table>
 </body>
 </html>

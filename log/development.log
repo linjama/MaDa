@@ -1002,3 +1002,142 @@ Processing MainController#puutarha (for 194.111.80.2 at 2010-06-01 22:23:03) [GE
 Rendering template within layouts/main
 Rendering main/puutarha
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main/puutarha?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:18:04) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 167ms (View: 165, DB: 0) | 200 OK [http://www.srkteam.net/main/]
+
+
+Processing MainController#puutarha (for 87.95.150.73 at 2010-06-02 21:18:43) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.srkteam.net/main/puutarha?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:18:55) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:27:54) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:38:04) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:39:15) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:47:05) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 21ms (View: 8, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:51:14) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:55:13) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:56:30) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 21:56:58) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:04:01) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:05:55) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:06:16) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:07:11) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:08:55) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 44ms (View: 42, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:12:54) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#puutarha (for 87.95.150.73 at 2010-06-02 22:13:31) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main/puutarha?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:13:37) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
+
+
+Processing MainController#index (for 87.95.150.73 at 2010-06-02 22:14:19) [GET]
+  Parameters: {"class"=>"linkki"}
+Rendering template within layouts/main
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.srkteam.net/main?class=linkki]
