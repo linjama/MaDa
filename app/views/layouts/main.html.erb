@@ -4,26 +4,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title><%= @page_title %></title>
+  <title><%= @page_title || "Kaunis Veranta" %></title>
   <%= stylesheet_link_tag 'kaunis_veranta' %>
 </head>
 <body>
 
-<p class="logorivi"><%=image_tag("banner.jpg", :size => "848x127", :alt => "Kaunis Veranta")%></p>
+<div class="logorivi"><%=image_tag("banner.jpg", :size => "848x127", :alt => "Kaunis Veranta")%></div>
 
-<p style="color: green"><%= flash[:notice] %></p>
+<table width="100%">
+  <tr>
+    <td></td>
+    <td class="sisalto">
+      <div id="linkkirivi">
+	<table>
+	  <tr>
+	    <td class="linkki">
+	      <%= link_to("Yritys", {:action => "index"}) %>
+	    </td>
+	    <td class="linkki">
+	      <%= link_to("Puutarhasuunnittelu", {:action => "puutarha"}) %>
+	    </td>
+	  </tr>
+	</table>
+      </div>
+      
+      <%= yield %>
+      
+      <hr>
+      <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
 
-<table width="100%"><tr><td></td><td class="sisalto">
+    </td>
+    <td></td>
+  </tr>
+</table>
 
-<%= yield %>
-
-<hr>
-
-<div id="linkkirivi">
-  <%= link_to_unless_current("Yritys",{:action => "index", :class => "linkki"}) %>
-  <%= link_to_unless_current("Puutarhasuunnittelu",{:action => "puutarha", :class => "linkki"}) %>
-</div>
-
-</td><td></td></tr></table>
 </body>
 </html>
