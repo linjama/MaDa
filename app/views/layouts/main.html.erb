@@ -7,35 +7,31 @@
   <title><%= @page_title || "Kaunis Veranta" %></title>
   <%= stylesheet_link_tag 'kaunis_veranta' %>
 </head>
-<body>
-
-<div class="logorivi"><%=image_tag("banner.jpg", :size => "848x127", :alt => "Kaunis Veranta")%></div>
+<body background="<%=image_path("tausta.jpg")%>">
 
 <table width="100%">
   <tr>
-    <td></td>
-    <td class="sisalto">
-      <div id="linkkirivi">
-	<table>
-	  <tr>
-	    <td class="linkki">
-	      <%= link_to("Yritys", {:action => "index"}) %>
-	    </td>
-	    <td class="linkki">
-	      <%= link_to("Puutarhasuunnittelu", {:action => "puutarha"}) %>
-	    </td>
-	  </tr>
-	</table>
-      </div>
-      
-      <%= yield %>
-      
-      <hr>
-      <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
-
+    <td rowspan="3"></td>
+    <td class="logorivi">
+      <%=image_tag("logo_transparent_smaller.gif", :size => "200x105", :alt => "Kaunis Veranta", :class => "logo")%>
     </td>
-    <td></td>
+    <td rowspan="3"></td>
   </tr>
+  
+  <tr><td id="linkkirivi">
+    <div class="linkki">
+	    <%= link_to("Yritys", {:action => "index"}) %>
+	  </div>
+	  <div class="linkki">
+	    <%= link_to("Puutarhasuunnittelu", {:action => "puutarha"}) %>
+	  </div>
+  </td></tr>
+
+  <tr><td class="sisalto">
+    <%= yield %>
+    <hr>
+    <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
+  </td></tr>
 </table>
 
 </body>
