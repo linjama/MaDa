@@ -2758,3 +2758,1217 @@ Processing MainController#index (for 127.0.0.1 at 2010-06-07 22:17:47) [GET]
 Rendering template within layouts/main
 Rendering main/index
 Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:13:53) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 344ms (View: 344, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:18:39) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:22:30) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 141ms (View: 141, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:22:45) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 156ms (View: 141, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:23:19) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:23:59) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:26:38) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:26:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:26:39) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:26:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:33:54) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 79ms (View: 63, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:33:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:36:01) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:36:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:36:29) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:36:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:37:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:37:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:38:16) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:38:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:39:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:39:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:41:27) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:41:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:42:08) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:42:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:42:10) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:42:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:42:45) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:42:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:51:57) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:52:43) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:52:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:53:08) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:53:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:53:44) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:53:48) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:56:00) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:56:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:56:01) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:56:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:56:56) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:56:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:57:48) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:57:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:58:14) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:58:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:58:50) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 18:58:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 18:59:11) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:04:17) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:04:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:05:02) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:05:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:05:33) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:05:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:06:40) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:06:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:07:01) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:07:40) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:07:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:09:49) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:09:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:10:00) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:10:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:10:51) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:10:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:12:50) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:12:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:13:34) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:13:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:13:35) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:13:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:14:06) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:14:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:17:30) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-09 19:17:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/tausta88.jpg" with {:method=>:get}):
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/RYWeb/Rails/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:17:56) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:19:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:21:53) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:22:11) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:22:31) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:24:05) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:31:10) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:31:24) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:32:38) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:34:08) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:35:21) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:35:35) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:37:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:37:39) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:38:07) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:38:20) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:39:04) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:39:24) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:39:42) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:44:46) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:51:17) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 110ms (View: 110, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 19:51:26) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 19:51:29) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:51:31) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 19:51:32) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 19:51:33) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:51:35) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:52:23) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:52:58) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:53:33) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 19:53:47) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 20:02:19) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:02:27) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:03:30) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:04:02) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:04:45) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:05:11) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:06:02) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 20:08:44) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 46ms (View: 46, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 20:09:41) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:02:37) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:04:42) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:08:05) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:08:36) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:09:53) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:10:08) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:10:20) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:25:57) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:26:07) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:26:09) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 250ms (View: 250, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:26:38) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:31:15) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:33:49) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:33:53) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:34:42) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:34:47) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 21:34:55) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:36:04) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:36:27) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#sisustus (for 127.0.0.1 at 2010-06-09 21:36:30) [GET]
+Rendering template within layouts/main
+Rendering main/sisustus
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/main/sisustus]
+
+
+Processing MainController#puutarha (for 127.0.0.1 at 2010-06-09 21:36:33) [GET]
+Rendering template within layouts/main
+Rendering main/puutarha
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/main/puutarha]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-06-09 21:36:36) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/main]

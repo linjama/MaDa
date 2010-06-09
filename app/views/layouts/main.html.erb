@@ -11,27 +11,37 @@
 
 <table width="100%">
   <tr>
-    <td rowspan="3"></td>
-    <td class="logorivi">
-      <%=image_tag("logo_transparent_smaller.gif", :size => "200x105", :alt => "Kaunis Veranta", :class => "logo")%>
+    <td></td>
+    
+    <td class="sisalto">
+      
+      <div class="logorivi">
+        <%=image_tag("logo_transparent_smaller.gif", :size => "200x105", :alt => "Kaunis Veranta", :class => "logo")%>
+      </div>
+      
+      <div class="linkkirivi">
+        <div class="linkki">
+	        <%= link_to("Yritys", {:action => "index"}) %>
+	      </div>
+	      <div class="linkki">
+	        <%= link_to("Puutarhasuunnittelu", {:action => "puutarha"}) %>
+	      </div>
+	      <div class="linkki">
+	        <%= link_to("Sisustustekstiilit", {:action => "sisustus"}) %>
+	      </div>
+	    </div>
+
+      <div class="sisaltorivi">
+        <%= yield %>
+        <hr />
+        <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
+      </div>
+    
     </td>
-    <td rowspan="3"></td>
+    
+    <td></td>
   </tr>
   
-  <tr><td id="linkkirivi">
-    <div class="linkki">
-	    <%= link_to("Yritys", {:action => "index"}) %>
-	  </div>
-	  <div class="linkki">
-	    <%= link_to("Puutarhasuunnittelu", {:action => "puutarha"}) %>
-	  </div>
-  </td></tr>
-
-  <tr><td class="sisalto">
-    <%= yield %>
-    <hr>
-    <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
-  </td></tr>
 </table>
 
 </body>

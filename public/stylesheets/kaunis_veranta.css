@@ -6,55 +6,82 @@ body {
 
 /* VÄRIT                                                  */
 /* Bannerin vaalean ruskea = rgb(254,236,188)             */
-/* Kaunis Veranta Logon sininen on noin rgb(121,113,211)  */
+/* Kaunis Veranta Logon sininen on noin rgb(121,113,211)  TAI Miken mielestä #7d8cc8 */
 /* Kukkien liila on noin rgb(148,137,291)                 */
 /* Vaaleampi pohja = rgb(253,251,242)                     */
-/* LEVEYS 848px */
+/* Tumma ruskea sävy sävyyn = #d1a370                     */
+
 
 h1 {
-  font-size: 1.5em;
-  padding-top: 1em;
+	font-size: 1.3em;
+  padding-top: 0.5em;
 }
+
+h2 {
+	font-size: 1.2em;
+	font-style: italic
+  padding-top: 0.5em;
+}
+
 
 table, tr, td {
 	margin: 0px;
 	border-collapse: collapse;
 }
 
-.logorivi {
-	border: 7px solid rgb(254,236,188);
+strong {
+	font-weight: normal;
+	font-style: italic;
+}
+
+hr {
+	color: rgb(200,200,200);
+}
+
+.sisalto {
+	width: 40em;
 	background-color: rgb(254,236,188);
+	border: 1px solid #d1a370;
+}
+
+.logorivi {
+	background-color: transparent;
 }
 
 .logo {
   padding: 0.2em 0.5em;
 }
 
-.sisalto {
-	padding: 0em 0.7em;
-  line-height: 130%;
-  width: 40em;
-  border: 7px solid rgb(254,236,188);
+.linkkirivi {
   background-color: rgb(253,251,242);
+  border: 1px solid #d1a370;
+  padding: 0.3em 0em 0.4em;
+  margin: 0em 0.5em;
 }
 
 .linkki {
   display: inline;
-  float: left;
   font-variant: small-caps;
-  padding: 0.1em 0.5em;
+  padding: 0em 0.5em;
   background-color: transparent;
 }
 
-#linkkirivi {
-  border: 7px solid rgb(254,236,188);
+.sisaltorivi {
+	padding: 0em 0.7em;
+  line-height: 130%;
+  margin: 0.5em 0.5em;
+  border: 1px solid #d1a370;
   background-color: rgb(253,251,242);
 }
 
+.top_corner_image {
+	float: right;
+	margin-left: 0.5em;
+}
 
 #tekijat {
   font-size: 0.7em;
-  color: rgb(180,180,180);
+  color: rgb(200,200,200);
   text-align: right;
 }
 
