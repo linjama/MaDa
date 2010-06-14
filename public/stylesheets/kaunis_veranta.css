@@ -1,28 +1,32 @@
+/* 
+Uudet Ruskeat värit (Marikan kankaasta):
+Tummin (reunaviivat) = #ccb4a0
+Tumma ruskea (Tausta) = #dbcbb8
+Keskiruskea = #fbe6cf
+Vaalein = #fcf4ea
+Logon sininen = #7d8cc8
+*/
+
+
 body {
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(253,251,242);
+  background-color: #fcf4ea;
+  color: black;
 }
-
-/* VÄRIT                                                  */
-/* Bannerin vaalean ruskea = rgb(254,236,188)             */
-/* Kaunis Veranta Logon sininen on noin rgb(121,113,211)  TAI Miken mielestä #7d8cc8 */
-/* Kukkien liila on noin rgb(148,137,291)                 */
-/* Vaaleampi pohja = rgb(253,251,242)                     */
-/* Tumma ruskea sävy sävyyn = #d1a370                     */
-
 
 h1 {
 	font-size: 1.3em;
   padding-top: 0.5em;
+  color: black;
 }
 
 h2 {
 	font-size: 1.2em;
 	font-style: italic
   padding-top: 0.5em;
+  color: black;
 }
-
 
 table, tr, td {
 	margin: 0px;
@@ -30,18 +34,31 @@ table, tr, td {
 }
 
 strong {
-	font-weight: normal;
-	font-style: italic;
+	font-weight: bold;
+	font-style: normal;
 }
 
-hr {
-	color: rgb(200,200,200);
+:link {
+	color: #0000af;
+	background: transparent;
+}
+
+:visited {
+	color: #609;
+	background: transparent;
+}
+
+:link:hover, :visited:hover {
+	color: #c33;
+	text-decoration: none;
+	background: transparent;
 }
 
 .sisalto {
-	width: 40em;
-	background-color: rgb(254,236,188);
-	border: 1px solid #d1a370;
+	width: 45em;
+	background-color: #fbe6cf;
+	color: black;
+	border: 2px solid #ccb4a0;
 }
 
 .logorivi {
@@ -53,16 +70,15 @@ hr {
 }
 
 .linkkirivi {
-  background-color: rgb(253,251,242);
-  border: 1px solid #d1a370;
-  padding: 0.3em 0em 0.4em;
+  background-color: #fcf4ea;
+  border: 1px solid #ccb4a0;
+  padding: 0.3em 0.5em 0.4em;
   margin: 0em 0.5em;
 }
 
 .linkki {
   display: inline;
-  font-variant: small-caps;
-  padding: 0em 0.5em;
+  padding-right: 0.5em;
   background-color: transparent;
 }
 
@@ -70,8 +86,8 @@ hr {
 	padding: 0em 0.7em;
   line-height: 130%;
   margin: 0.5em 0.5em;
-  border: 1px solid #d1a370;
-  background-color: rgb(253,251,242);
+  border: 1px solid #ccb4a0;
+  background-color: #fcf4ea;
 }
 
 .top_corner_image {
@@ -79,10 +95,16 @@ hr {
 	margin-left: 0.5em;
 }
 
-#tekijat {
+.hr-line {
+	border-top: 2px solid rgb(200,200,200);
+	margin-top: 1.5em;
+}
+
+.tekijat {
   font-size: 0.7em;
   color: rgb(200,200,200);
   text-align: right;
+  margin: 0.5em 0em;
 }
 
 /* Allaoleva on kopioitu scaffold.css tiedostosta */

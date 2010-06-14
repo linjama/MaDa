@@ -7,7 +7,7 @@
   <title><%= @page_title || "Kaunis Veranta" %></title>
   <%= stylesheet_link_tag 'kaunis_veranta' %>
 </head>
-<body background="<%=image_path("tausta.jpg")%>">
+<body background="<%=image_path("tausta_brown77.jpg")%>">
 
 <table width="100%">
   <tr>
@@ -16,7 +16,7 @@
     <td class="sisalto">
       
       <div class="logorivi">
-        <%=image_tag("logo_transparent_smaller.gif", :size => "200x105", :alt => "Kaunis Veranta", :class => "logo")%>
+        <%=image_tag("logo_ellipsi_small.png", :height => "105", :alt => "Kaunis Veranta", :class => "logo")%>
       </div>
       
       <div class="linkkirivi">
@@ -29,12 +29,21 @@
 	      <div class="linkki">
 	        <%= link_to("Sisustustekstiilit", {:action => "sisustus"}) %>
 	      </div>
+	      <div class="linkki">
+	        <%= link_to("Puutarhagalleria", {:action => "puutarha_gallery"}) %>
+	      </div>
+	      <div class="linkki">
+	        <%= link_to("Sisustusgalleria", {:action => "sisustus_gallery"}) %>
+	      </div>
+	      <div class="linkki">
+	        <%= link_to("Yhteys", {:action => "contact"}) %>
+	      </div>
 	    </div>
 
       <div class="sisaltorivi">
         <%= yield %>
-        <hr />
-        <p id="tekijat">Daniel, Matti ja Marika Linjama</p>
+        <div class="hr-line"></div>
+        <p class="tekijat">Daniel, Matti ja Marika Linjama</p>
       </div>
     
     </td>
